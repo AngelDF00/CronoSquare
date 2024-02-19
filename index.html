@@ -1,0 +1,106 @@
+<!--
+SPDX-FileCopyrightText: 2024 Pablo Portas López <81629707+TeenBiscuits@users.noreply.github.com>
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
+<!DOCTYPE html>
+<html lang="es"> <!-- Web escrita en español-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronoSquare | HackUDC 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+</head>
+
+
+<body>
+    <audio id="musifondo" loop>
+        <!-- Música en bucle de fondo libre de derechos de autor -->
+        <source src="musica/Fondo.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="sonidoClick" src="musica/Clicks.mp3" preload="auto">
+        <!-- Música del Minecraft para cada vez que el usuario clica en un tile -->
+    </audio>
+    <div class="fondo-animado"> <!-- El fondo va cambiado de color según lo especificado en el .css -->
+        
+        <h1 style="text-align: center;">Crono <img style="height: 75px;" src="./imagenes/Logo_ICON_sin-fondo.png"
+                alt=""> Square</h1>
+        <h3 style="text-align: center;">HackUDC 2024</h3>
+
+        <div class="contenedor"> <!-- Div Principal -->
+            <div class="texto"> <!-- Contadores y Temporizador -->
+                <img style="width: 60px;" src="imagenes/ChinchetaVerde.png" alt=""><br>
+                <div id="cuentaAtras">10:00:00</div>
+                <br>
+                <div id="score-display">Puntuación: 0</div>
+                <div id="move-display">Movimientos: 0</div>
+
+                <div class="contenedor-botones">
+                    <a target="_blank" href="https://github.com/TeenBiscuits/CronoSquare" class="boton avanzar">⭐ Enlace
+                        al Github</a>
+                </div>
+            </div>
+            <div class="puzzle" id="game-grid"> <!-- Game Grid utilizada por el programa para el tablero de juego -->
+            </div>
+            <script src="script.js"></script>
+
+            <div class="botones"> <!-- Opciones de dificultad del Juego -->
+                Imagen
+                <label class="switch">
+                    <input type="checkbox" id="show-image" onclick="toggleImage()">
+                    <span class="slider"></span>
+                </label>
+                <div id="imagenContenedor" style="display:none;">
+                    <img style="width: 50px;" id="imagen" src="imagenes/patron.png" alt="">
+                </div>
+                <br><br>
+                <div>
+                    <img id="imagenDeLaEsquina" src="" alt="Toggle Image" height="256" width="auto">
+                    <script src="script.js"></script>
+                </div>
+                <br>
+                Números <label class="switch">
+                    <input type="checkbox" id="show-numbers">
+                    <span class="slider"></span>
+                </label>
+                <br>
+            </div>
+        </div>
+        <div class="contenedor-centrado"> <!-- Botón para Generar una nueva imagen -->
+            <div class="contenedor-botones">
+                <button id="random-button" class="boton avanzar">→ 🎲✨ Crear con IA ✨🎲 ←</button>
+            </div>
+        </div>
+        <div> <!-- Créditos <3 -->
+            <br>
+            <p style="text-align: center;">Creado por Pablo Portas López, Ángel Díaz Fernández y Alexandre Laredo
+                Fernández.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript para ocultar la imagen original según el botón
+        function toggleImage() {
+            var image = document.getElementById("imagenDeLaEsquina");
+            if (image.style.display === "block") {
+                image.style.display = "none";
+            } else {
+                image.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+<script>
+    // TODO: Solucional el ERROR.
+    document.getElementById('botonClickeable').addEventListener('click', function () {
+        var sonido = document.getElementById('sonidoClick');
+        sonido.play();
+    });
+</script>
+
+</html>
