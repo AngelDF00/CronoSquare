@@ -1,14 +1,14 @@
 <!--
-SPDX-FileCopyrightText: 2024 Pablo Portas López <81629707+TeenBiscuits@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Angel Diaz Fernandez <81629707+AngelDF00s@users.noreply.github.com>
 
 SPDX-License-Identifier: Apache-2.0
 -->
 
 <div align="center">
  
-[![CronoSquare Logo](https://raw.githubusercontent.com/TeenBiscuits/CronoSquare/main/imagenes/Logo%20Social.png)](https://teenbiscuits.github.io/CronoSquare)
+[![CronoSquare Logo](https://raw.githubusercontent.com/AngelDF00/CronoSquare/main/imagenes/Logo%20Social.png)](https://teenbiscuits.github.io/CronoSquare)
 
-<h3>🌐🎮 <a href="https://teenbiscuits.github.io/CronoSquare">CronoSquare: El Videojuego</a> 🎮🌐</h3>
+<h3>🌐🎮 <a href="https://AngelDF00.github.io/CronoSquare">CronoSquare: El Videojuego</a> 🎮🌐</h3>
 
 </div>
 
