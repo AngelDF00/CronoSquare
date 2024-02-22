@@ -28,7 +28,7 @@ ANTIGUO CONTADOR DE CUANTO QUEDA DE HACKUDC
 <div align="center">
 
 [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=HTML5&logoColor=white)]()
-[![Build](https://github.com/TeenBiscuits/CronoSquare/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/TeenBiscuits/CronoSquare/actions/workflows/pages/pages-build-deployment)
+[![Build](https://github.com/AngelDF00/CronoSquare/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AngelDF00/CronoSquare/actions/workflows/pages/pages-build-deployment)
 [![Web](https://img.shields.io/website?down_message=offline&up_message=online&label=Web&url=https%3A%2F%2Fteenbiscuits.github.io%2FCronoSquare)](https://teenbiscuits.github.io/CronoSquare)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Devpost](https://img.shields.io/badge/DEVPOST-HackUDC-003e54)](https://devpost.com/software/cronosquare)
@@ -41,7 +41,7 @@ ANTIGUO CONTADOR DE CUANTO QUEDA DE HACKUDC
 
 ### 💡 La Idea
 
-![Windows Vista](https://raw.githubusercontent.com/TeenBiscuits/CronoSquare/main/imagenes/Windows-XP.webp)
+![Windows Vista](https://raw.githubusercontent.com/AngelDF00/CronoSquare/main/imagenes/Windows-XP.webp)
 
 En Windows Vista había un pequeño miniguego en el que nos inspiramos para crear este minijuego.
 
@@ -49,11 +49,11 @@ En Windows Vista había un pequeño miniguego en el que nos inspiramos para crea
 
 <div align="center">
 
-[![Gif-Demo](https://github.com/TeenBiscuits/CronoSquare/blob/main/imagenes/V%C3%ADdeo%20DEMO.gif?raw=true)](https://www.youtube.com/watch?v=JbIf-MH_fHw)
+[![Gif-Demo](https://github.com/AngelDF00/CronoSquare/blob/main/imagenes/V%C3%ADdeo%20DEMO.gif?raw=true)](https://www.youtube.com/watch?v=JbIf-MH_fHw)
 
-![Captura de pantalla-1](https://github.com/TeenBiscuits/CronoSquare/blob/main/imagenes/Captura%20de%20pantalla-1.png?raw=true)
+![Captura de pantalla-1](https://github.com/AngelDF00/CronoSquare/blob/main/imagenes/Captura%20de%20pantalla-1.png?raw=true)
 
-![Captura de pantalla-2](https://github.com/TeenBiscuits/CronoSquare/blob/main/imagenes/Captura%20de%20pantalla-2.png?raw=true)
+![Captura de pantalla-2](https://github.com/AngelDF00/CronoSquare/blob/main/imagenes/Captura%20de%20pantalla-2.png?raw=true)
 
 </div>
 
