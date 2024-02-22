@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0
  
 [![CronoSquare Logo](https://raw.githubusercontent.com/AngelDF00/CronoSquare/main/imagenes/Logo%20Social.png)](https://teenbiscuits.github.io/CronoSquare)
 
-<h3>🌐🎮 <a href="https://AngelDF00.github.io/CronoSquare">CronoSquare: El Videojuego</a> 🎮🌐</h3>
+<h3>🌐🎮 <a href="https://teenbiscuits.github.io/CronoSquare">CronoSquare: El Videojuego</a> 🎮🌐</h3>
 
 </div>
 
